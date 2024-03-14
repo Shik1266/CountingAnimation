@@ -1,6 +1,7 @@
 name: counting_animation
 description: Number Counting Animation package
 publisher: qwerhs@gmail.com
+repository: https://github.com/Shik1266/CountingAnimation
 version: 0.0.1
 
 environment:

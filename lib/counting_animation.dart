@@ -12,6 +12,7 @@ class CountingAnimation extends StatefulWidget {
     this.lastDuration = const Duration(milliseconds: 50),
     this.bgColor = Colors.white,
     this.useChar = false,
+    this.useRefresh = true,
   });
 
   final String value;
@@ -21,6 +22,7 @@ class CountingAnimation extends StatefulWidget {
   final Duration lastDuration;
   final Color bgColor;
   final bool useChar;
+  final bool useRefresh;
 
   @override
   State<CountingAnimation> createState() => _CountingAnimationState();
@@ -102,7 +104,7 @@ class _CountingAnimationState extends State<CountingAnimation>
   @override
   void didUpdateWidget(covariant CountingAnimation oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.value != widget.value) {
+    if (useRefresh && oldWidget.value != widget.value) {
       initData();
       controller.reset();
       controller.forward();
