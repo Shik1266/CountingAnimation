@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.19.0
-  counting_animation:
+  number_counting_animation:
     path: ../
 
 

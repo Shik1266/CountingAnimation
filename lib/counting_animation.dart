@@ -1,4 +1,4 @@
-library counting_animation;
+library number_counting_animation;
 
 import 'package:flutter/material.dart';
 
