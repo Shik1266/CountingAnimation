@@ -104,7 +104,7 @@ class _CountingAnimationState extends State<CountingAnimation>
   @override
   void didUpdateWidget(covariant CountingAnimation oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (useRefresh && oldWidget.value != widget.value) {
+    if (widget.useRefresh && oldWidget.value != widget.value) {
       initData();
       controller.reset();
       controller.forward();
