@@ -1,39 +1,27 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+## NumberCountingAnimation
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+---
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+- Counting Animation package
+    
+    ![Screen_Recording_20240314_113116-ezgif com-video-to-gif-converter](https://github.com/Shik1266/CountingAnimation/assets/53571368/eb8b3042-f793-456f-987f-e8342029d5a1)
+    
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## How to use
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+---
 
 ```dart
-const like = 'sample';
+ CountingAnimation(
+              value: '12,345',
+              textStyle: const TextStyle(
+                color: Colors.blue,
+                fontSize: 20,
+              ),
+              useChar: true,
+              scrollCount: 10,
+              singleScollDuration: const Duration(milliseconds: 200),
+              lastDuration: const Duration(milliseconds: 1000),
+            ),
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
