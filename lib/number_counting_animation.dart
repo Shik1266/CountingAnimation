@@ -10,7 +10,7 @@ class CountingAnimation extends StatefulWidget {
     this.scrollCount = 40,
     this.singleScollDuration = const Duration(milliseconds: 50),
     this.lastDuration = const Duration(milliseconds: 50),
-    this.bgColor = Colors.white,
+    this.bgColor = Colors.transparent,
     this.useChar = false,
     this.useRefresh = true,
   });
