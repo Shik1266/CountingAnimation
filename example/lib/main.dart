@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:number_counting_animation/counting_animation.dart';
+import 'package:number_counting_animation/number_counting_animation.dart';
 
 void main() {
   runApp(const MyApp());
