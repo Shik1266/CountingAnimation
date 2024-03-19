@@ -15,13 +15,28 @@ class CountingAnimation extends StatefulWidget {
     this.useRefresh = true,
   });
 
+  ///Show number value
   final String value;
+
+  ///Text style
   final TextStyle textStyle;
+
+  ///total amount of play to scroll animation. defalut : 40
   final int scrollCount;
+
+  ///duration for each scroll animation. default : 50ms
   final Duration singleScollDuration;
+
+  ///duration for last animation. default : 50ms
   final Duration lastDuration;
+
+  ///widget back ground color. default : transparent
   final Color bgColor;
+
+  ///value have non-animation character. default: false
   final bool useChar;
+
+  ///restart animation when value changed. default : true
   final bool useRefresh;
 
   @override
