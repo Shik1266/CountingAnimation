@@ -1,5 +1,5 @@
 name: number_counting_animation
-description: Number Counting Animation package  - A simple flutter counting animation widget. \n sample page link -> https://pub.dev/packages/number_counting_animation/example
+description: Number Counting Animation package  - A simple flutter counting animation widget.
 repository: https://github.com/Shik1266/CountingAnimation
 version: 1.0.0
 topics: [animation, counting, scrolling]
