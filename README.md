@@ -11,7 +11,7 @@ Add this to your package’s pubspec.yaml file:
 
 ```kotlin
 dependencies:
-  number_counting_animation: ^1.0.1
+  number_counting_animation: ^1.0.2
 ```
 
 ## CountingAnimation

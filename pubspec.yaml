@@ -1,7 +1,7 @@
 name: number_counting_animation
 description: Number Counting Animation package  - A simple flutter counting animation widget.
 repository: https://github.com/Shik1266/CountingAnimation
-version: 1.0.1
+version: 1.0.2
 topics: [animation, counting, scrolling]
 screenshots:
   - description: The flutter bloc package logo.

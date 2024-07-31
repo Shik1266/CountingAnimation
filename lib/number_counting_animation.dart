@@ -7,6 +7,7 @@ class CountingAnimation extends StatefulWidget {
     super.key,
     required this.value,
     required this.textStyle,
+    this.mainAlignment = MainAxisAlignment.center,
     this.scrollCount = 40,
     this.singleScollDuration = const Duration(milliseconds: 50),
     this.lastDuration = const Duration(milliseconds: 50),
@@ -14,6 +15,9 @@ class CountingAnimation extends StatefulWidget {
     this.useChar = false,
     this.useRefresh = true,
   });
+
+  ///Main AxisAligment
+  final MainAxisAlignment mainAlignment;
 
   ///Show number value
   final String value;
